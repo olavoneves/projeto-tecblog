@@ -158,6 +158,10 @@ a#ele {
     color: rgb(255, 169, 63);
 }
 
+span#categoria > a:hover {
+    text-decoration: underline;
+}
+
 footer {
     background-color: rgb(184, 184, 184);
     text-align: center;
