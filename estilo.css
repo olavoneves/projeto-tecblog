@@ -5,3 +5,184 @@
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    background-color: lightgray;
+}
+
+header {
+    background-color: rgb(240, 183, 51);
+    text-align: center;
+    padding: 35px;
+}
+
+h1 {
+    padding-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.4em;
+}
+
+a#blog {
+    color: white;
+    text-decoration: none;
+}
+
+menu > a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+menu > a:hover {
+    transition-duration: 0.5s;
+    background-color: white;
+    color: rgb(240, 183, 51);
+    border-radius: 10px;
+}
+
+section {
+    background-color: white;
+    margin: 25px 55px 25px 55px;
+    border-radius: 20px 0px;
+    padding: 5px auto 50px auto;
+}
+
+h2 {
+    padding: 20px 20px 5px 20px;
+    color: rgb(240, 183, 51);
+}
+
+h4 {
+    font-weight: lighter;
+    padding: 0px 20px 5px 20px;
+}
+
+p {
+    text-align: justify;
+    padding: 2px 30px 2px 30px;
+}
+
+img {
+    width: 60vw;
+    display: block;
+    margin: 20px auto 20px auto;
+}
+
+a#leia {
+    padding: 2px 30px 50px 30px;
+    text-decoration: none;
+    color: rgb(255, 169, 63);
+}
+
+a#leia:hover {
+    text-decoration: underline;
+}
+
+span {
+    display: inline;
+    background-color: white;
+    padding: 10px;
+}
+
+span#postagens {
+    width: 30vw;
+    height: 40vh;
+    float: right;
+    position: absolute;
+    top: 28vh;
+    left: 100vw;
+    border-radius: 20px 0px;
+}
+
+span > p {
+    font-size: small;
+    padding: 10px 10px 0px 10px;
+}
+
+span > a#leia {
+    padding: 2px 10px 5px 10px;
+}
+
+span#categoria {
+    width: 30vw;
+    height: 30vh;
+    float: right;
+    position: absolute;
+    top: 75vh;
+    left: 100vw;
+    border-radius: 20px 0px;
+}
+
+span#categoria > a {
+    padding: 2px 10px 2px 10px;
+}
+
+h3 {
+    background-color: lightgray;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px 0px;
+}
+
+a#home {
+    display: block;
+    padding: 2px 30px 2px 30px;
+    text-decoration: none;
+    color: rgb(255, 169, 63);
+}
+
+a#jogo {
+    display: block;
+    padding: 2px 30px 2px 30px;
+    text-decoration: none;
+    color: rgb(255, 169, 63);
+}
+
+a#cell {
+    display: block;
+    padding: 2px 30px 2px 30px;
+    text-decoration: none;
+    color: rgb(255, 169, 63);
+}
+
+a#info {
+    display: block;
+    padding: 2px 30px 2px 30px;
+    text-decoration: none;
+    color: rgb(255, 169, 63);
+}
+
+a#ele {
+    display: block;
+    padding: 2px 30px 2px 30px;
+    text-decoration: none;
+    color: rgb(255, 169, 63);
+}
+
+footer {
+    background-color: rgb(184, 184, 184);
+    text-align: center;
+    margin: 25px 55px 25px 55px;
+    border-radius: 20px 0px;
+    padding: 20px;
+}
+
+footer > h3#final {
+    font-weight: 400;
+    background-color: rgb(184, 184, 184);
+}
+
+h5 {
+    font-weight: bold;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+h5 > a {
+    text-decoration: none;
+    color: darkorange;
+}
+
+h5 > a:hover {
+    text-decoration: underline;
+}
